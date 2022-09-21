@@ -1,0 +1,26 @@
+body {
+    background-color: #fafafa;
+    font-family: "Poppins", ui-sans-serif, system-ui, -apple-system,
+        BlinkMacSystemFont, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-blue: #006ce9;
+    --light-blue: #18b6f6;
+    --light-purple: #ac7ff4;
+    --dark-purple: #713fc2;
+    --blue: #006ce9;
+    --gray: #4d4d4d;
+    --dark-gray: #2d2d2d;
+    --light-gray: #adb5bd;
+    --green: #00c48c;
+    --light-green: rgba(0, 196, 140, 0.1);
+    --red: #ff4d4d;
+    --dark-red: #ef233c;
+}

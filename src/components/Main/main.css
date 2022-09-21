@@ -1,0 +1,79 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 50px;
+    max-height: calc(90vh);
+    margin-top: 65px;
+}
+.title {
+    margin: 20px 0;
+}
+.todo-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    max-height: 500px;
+    width: 500px;
+    padding: 20px 30px;
+    background: #fafafabe;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.add,
+.close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    text-align: center;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background: var(--blue);
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+}
+.close {
+    background: var(--dark-red);
+}
+
+.todo-list {
+    margin: 30px 0 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    overflow-y: auto;
+}
+.dropdown {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.dropdown input {
+    padding: 8px 10px;
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 100%;
+    outline: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.dropdown input::placeholder {
+    color: var(--light-gray);
+}
+.dropdown button {
+    padding: 0 20px;
+    outline: none;
+    border: none;
+    border-top-right-radius: 8px;
+    background-color: var(--dark-blue);
+    color: white;
+    cursor: pointer;
+    border-bottom-right-radius: 8px;
+}

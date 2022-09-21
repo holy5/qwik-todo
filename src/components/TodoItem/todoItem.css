@@ -1,0 +1,43 @@
+.wrapper {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid var(--dark-gray);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    user-select: none;
+}
+.tool {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 5px;
+}
+.icon {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+.complete {
+    text-decoration: line-through;
+    color: var(--gray);
+    background-color: var(--light-green);
+    border-color: var(--green);
+}
+
+.check {
+    color: var(--green);
+}
+.edit {
+    color: var(--light-blue);
+}
+.delete {
+    color: var(--red);
+}
+.input-edit {
+    padding: 5px 10px;
+}
